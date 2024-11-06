@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ảnh Của Lớp</title>
+    <style >
+        
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .image-gallery img {
+            margin: 10px;
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            border-color: #555;
+        }
+    </style>
+</head>
+<body style="background-color: deeppink;">
+    <h1>A4K38</h1>
+    <div class="image-gallery">
+        <img src="/image/tym1.jpg" alt="Hình ảnh 1">
+        <img src="/image/tym2.jpg" alt="Hình ảnh 2">
+        <img src="/image/muadong.jpg" alt="Hình ảnh 3">
+        <img src="/image/lop.jpg" alt="Hình ảnh 4">
+        <img src="/image/phusang.jpg" alt="Hình ảnh 5">
+    </div>
+</body>
+</html>
